@@ -1,0 +1,145 @@
+.trupi {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.koka {
+  background-color: #222;
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #e30b0b;
+}
+
+.titull-kryesor {
+  font-size: 2.5rem;
+  color: #e30b0b;
+  margin-bottom: 0.5rem;
+}
+
+.pershkrim {
+  font-size: 1.1rem;
+  color: #aaa;
+}
+
+.etikete-modeli {
+  background: #b22222;
+  color: #fff;
+}
+
+.etikete-motor {
+  background: crimson;
+  color: #fff;
+  font-weight: bold;
+}
+
+.shprehje {
+  background: #e30b0b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.shprehje2 {
+  background: #444;
+  color: #f55;
+  font-weight: bold;
+}
+
+.shprehje3 {
+  background: #333;
+  color: #ff5;
+  font-weight: bold;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #000;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #444;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px crimson;
+}
+
+.informacioni {
+  padding: 2rem;
+  background-color: #1a1a1a;
+}
+
+.titull-seksion {
+  color: #e30b0b;
+  border-bottom: 2px solid #e30b0b;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+.lista {
+  padding-left: 1.5rem;
+  color: #ddd;
+}
+
+.lista li {
+  margin-bottom: 0.5rem;
+}
+
+.detaje dt {
+  font-weight: bold;
+  color: #f55;
+  margin-top: 1rem;
+}
+
+.detaje dd {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #ddd;
+}
+
+.imazh-veçori img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.italic-koment {
+  color: #ffa07a;
+}
+
+.citim-fundor {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.epitet {
+  color: tomato;
+  font-weight: bold;
+}
+
+.nentekst {
+  font-style: italic;
+}
+
+.fundi {
+  text-align: center;
+  padding: 1rem;
+  background-color: #000;
+  color: #777;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
